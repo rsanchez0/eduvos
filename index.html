@@ -9,14 +9,14 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Elevator - Multipurpose Bootstrap Theme</title>
+        <title>Eduvos - Educando El Salvador</title>
 
         <!-- Bootstrap Core CSS -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <!-- Font Awesome CSS -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
-		
+
 		<!-- Custom CSS -->
         <link href="css/animate.css" rel="stylesheet">
 
@@ -35,47 +35,54 @@
         <script src="js/jqBootstrapValidation.js"></script>
         <script src="js/modernizr.custom.js"></script>
         <script src="js/script.js"></script>
-
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
-    
+
     <body>
-        
-        <!-- Start Logo Section -->
-        <section id="logo-section" class="text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="logo text-center">
-                            <h1>Eduvos</h1>
-                            <span>Educando a El Salvador</span>
-                        </div>
-                    </div>
-					
-					<div class="col-md-6">
-                        <div class="logo text-center">
-                            <>
-							<span>Iniciar Sesion</span>
-                        </div>
-                    </div>
-					
-                </div>
-            </div>
-        </section>
-        <!-- End Logo Section -->
-        
-        
+
+        <!-- Inicio Navbar -->
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+          <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="Logo.png" alt="">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#main">Menu1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#speakers">Menu2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#place-time">Menu3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#conviertete-en-orador">Menu4</a>
+        </li>
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
+        <!-- Fin Navbar -->
+
+
         <!-- Start Main Body Section -->
         <div class="mainbody-section text-center">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="col-md-3">
-                        
+
                         <div class="menu-item blue">
                             <a href="#feature-modal" data-toggle="modal">
                                 <i class="fa fa-pencil-square-o"></i>
@@ -83,120 +90,116 @@
 									<p>Evaluaciones</p>
                             </a>
                         </div>
-                        
+
                         <div class="menu-item green">
                             <a href="#portfolio-modal" data-toggle="modal">
-                                <i class="fa fa-file-photo-o"></i>
-                                <p>Portfolio</p>
+                                <i class="fa fa-comment-o"></i>
+                                <p>Foro</p>
                             </a>
                         </div>
-                        
-                        <div class="menu-item light-red">
-                            <a href="#about-modal" data-toggle="modal">
-                                <i class="fa fa-user"></i>
-                                <p>About Us</p>
-                            </a>
-                        </div>
-                        
+
+
+
                     </div>
-                    
+
                     <div class="col-md-6">
-                        
+
                         <!-- Start Carousel Section -->
                         <div class="home-slider">
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding-bottom: 30px;">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                                </ol>
-
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="images/about-03.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/about-02.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/about-01.jpg" class="img-responsive" alt="">
-                                    </div>
-
-                                </div>
-
-                            </div>
+                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="about-01.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="about-02.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="about-03.jpg" alt="Third slide">
+      </div>
+    </div>
+  </div>
                         </div>
                         <!-- Start Carousel Section -->
-                        
+
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="menu-item color responsive">
-                                    <a href="#service-modal" data-toggle="modal">
-                                        <i class="fa fa-area-chart"></i>
-                                        <!--<p>Services</p> -->
-										<p>Estadistica</p>
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-6">
-                                <div class="menu-item light-orange responsive-2">
-                                    <a href="#team-modal" data-toggle="modal">
-                                        <i class="fa fa-users"></i>
-                                        <!-- <p>Team</p> -->
-										<p>Alumnos</p>
-                                    </a>
-                                </div>
-                            </div>
-                            
+
                         </div>
-                        
+
                     </div>
-                    
+
                     <div class="col-md-3">
-                        
+
                         <div class="menu-item light-red">
                             <a href="#contact-modal" data-toggle="modal">
-                                <i class="fa fa-envelope-o"></i>
-                                <p>Contact</p>
+                                <i class="fa fa-mortar-board"></i>
+                                <p>Clases</p>
                             </a>
                         </div>
-                        
+
                         <div class="menu-item color">
                             <a href="#testimonial-modal" data-toggle="modal">
-                                <i class="fa fa-comment-o"></i>
-                                <p>Testimonial</p>
+                                <i class="fa fa-book"></i>
+                                <p>Talleres</p>
                             </a>
                         </div>
-                        
-                        <div class="menu-item blue">
-                            <a href="#news-modal" data-toggle="modal">
-                                <i class="fa fa-mortar-board"></i>
-                                <p>Latest News</p>
-                            </a>
-                        </div>
-                        
+
+
+
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Main Body Section -->
-        
+
         <!-- Start Copyright Section -->
-        <div class="copyright text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div>Design & Developed by <a href="https://www.facebook.com/Shahriyar.Ahmed.Sohel" target="_blank">Shahriyar Ahmed</a> for <a href="http://graygrids.com">GrayGrids</a></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="pb-4 pt-4 ">
+         <div class="container-fluid bg-primary py-3 mt-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+                <div class="row py-0">
+                <div class="col-sm-11 text-white">
+                    <div><h4>Contact</h4>
+                        <p>sales@eduvos.com.sv</p>
                     </div>
                 </div>
+                </div>
             </div>
+            <div class="col-md-5 text-right">
+              <div class="d-inline-block">
+                <div class="bg-circle-outline d-inline-block" style="background-color:#3b5998">
+                  <a href="https://www.facebook.com/"><i class="fa fa-2x fa-fw fa-facebook text-white"></i>
+    		</a>
+                </div>
+                <div class="bg-circle-outline d-inline-block" style="background-color:#4099FF">
+                  <a href="https://twitter.com/">
+                    <i class="fa fa-2x fa-fw fa-twitter text-white"></i></a>
+                </div>
+
+                <div class="bg-circle-outline d-inline-block" style="background-color:#0077B5">
+                  <a href="https://www.linkedin.com/company/">
+                    <i class="fa fa-2x fa-fw fa-linkedin text-white"></i></a>
+                </div>
+                <div class="bg-circle-outline d-inline-block" style="background-color:#d34836">
+                  <a href="https://www.google.com/">
+                    <i class="fa fa-2x fa-fw fa-google text-white"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        </div>
+    </footer>
+
         <!-- End Copyright Section -->
-        
-        
+
+
         <!-- Start Feature Section -->
         <div class="section-modal modal fade" id="feature-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -206,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -289,13 +292,13 @@
                         </div><!-- /.col-md-3 -->
                     </div><!-- /.row -->
                 </div>
-                
+
             </div>
         </div>
         <!-- End Feature Section -->
-        
-        
-        
+
+
+
         <!-- Start Portfolio Section -->
         <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -305,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -314,7 +317,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/1.png" class="img-responsive" alt="...">
@@ -324,7 +327,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/2.png" class="img-responsive" alt="...">
@@ -334,7 +337,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/3.png" class="img-responsive" alt="...">
@@ -344,7 +347,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/4.png" class="img-responsive" alt="...">
@@ -354,7 +357,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/5.png" class="img-responsive" alt="...">
@@ -364,7 +367,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/6.png" class="img-responsive" alt="...">
@@ -374,7 +377,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/7.png" class="img-responsive" alt="...">
@@ -384,7 +387,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/8.png" class="img-responsive" alt="...">
@@ -394,7 +397,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/9.png" class="img-responsive" alt="...">
@@ -404,7 +407,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/10.png" class="img-responsive" alt="...">
@@ -414,7 +417,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/11.png" class="img-responsive" alt="...">
@@ -424,7 +427,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="portfolio-item">
                                 <img src="images/portfolio/12.png" class="img-responsive" alt="...">
@@ -434,15 +437,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div><!-- /.row -->
                 </div>
-                
+
             </div>
         </div>
         <!-- End Portfolio Section -->
-        
-        
+
+
         <!-- Start About Us Section -->
         <div class="section-modal modal fade" id="about-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -452,7 +455,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -496,67 +499,67 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="skill-shortcode">
-                        
+
                                 <!-- Progress Bar -->
                                 <div class="skill">
-                                    <p>Web Design</p>          
-                                    <div class="progress">         
+                                    <p>Web Design</p>
+                                    <div class="progress">
                                         <div class="progress-bar" role="progressbar"  data-percentage="60">
                                             <span class="progress-bar-span" >60%</span>
                                             <span class="sr-only">60% Complete</span>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
 
                                 <!-- Progress Bar -->
                                 <div class="skill">
-                                    <p>HTML & CSS</p>          
-                                    <div class="progress">         
+                                    <p>HTML & CSS</p>
+                                    <div class="progress">
                                         <div class="progress-bar" role="progressbar"  data-percentage="95">
                                             <span class="progress-bar-span" >95%</span>
                                             <span class="sr-only">95% Complete</span>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
 
                                 <!-- Progress Bar -->
                                 <div class="skill">
-                                    <p>Wordpress</p>          
-                                    <div class="progress">         
+                                    <p>Wordpress</p>
+                                    <div class="progress">
                                         <div class="progress-bar" role="progressbar"  data-percentage="80">
                                             <span class="progress-bar-span" >80%</span>
                                             <span class="sr-only">80% Complete</span>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
 
                                 <!-- Progress Bar -->
                                 <div class="skill">
-                                    <p>Joomla</p>          
-                                    <div class="progress">         
+                                    <p>Joomla</p>
+                                    <div class="progress">
                                         <div class="progress-bar" role="progressbar"  data-percentage="100">
                                             <span class="progress-bar-span" >100%</span>
                                             <span class="sr-only">100% Complete</span>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
 
                                 <!-- Progress Bar -->
                                 <div class="skill">
-                                    <p>Extension</p>          
-                                    <div class="progress">         
+                                    <p>Extension</p>
+                                    <div class="progress">
                                         <div class="progress-bar" role="progressbar"  data-percentage="70">
                                             <span class="progress-bar-span" >70%</span>
                                             <span class="sr-only">70% Complete</span>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="custom-tab">
-                        
+
                                 <ul class="nav nav-tabs nav-justified" role="tablist">
                                     <li class="active"><a href="#tab-1" role="tab" data-toggle="tab">Our Mission</a></li>
                                     <li><a href="#tab-2" role="tab" data-toggle="tab">Our Vission</a></li>
@@ -588,12 +591,12 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- End About Us Section -->
-        
-        
+
+
         <!-- Start Service Section -->
         <div class="section-modal modal fade" id="service-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -603,7 +606,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -612,7 +615,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="feature-2">
                                 <div class="media">
@@ -679,10 +682,10 @@
                                 </div>
                             </div>
                         </div><!-- /.col-md-4 -->
-                        
+
                     </div><!-- /.row -->
                 </div>
-                
+
                 <div class="pricing-section">
                     <div class="container">
                         <div class="row">
@@ -783,12 +786,12 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- End Service Section -->
-        
-        
+
+
         <!-- Start Team Member Section -->
         <div class="section-modal modal fade" id="team-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -798,7 +801,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -807,7 +810,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-member">
                                 <img src="images/team/manage-1.png" class="img-responsive" alt="">
@@ -909,7 +912,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-member">
                                 <img src="images/team/team-3.jpg" class="img-responsive" alt="">
@@ -926,7 +929,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-3 col-sm-6">
                             <div class="team-member">
                                 <img src="images/team/team-4.jpg" class="img-responsive" alt="">
@@ -943,15 +946,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div><!-- /.row -->
                 </div>
-                
+
             </div>
         </div>
         <!-- End Team Member Section -->
-        
-        
+
+
         <!-- Start Latest News Section -->
         <div class="section-modal modal fade" id="news-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -961,7 +964,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -982,10 +985,10 @@
                                     </ul>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-                                
+
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <div class="latest-post">
                                 <img src="images/blog-02.jpg" class="img-responsive" alt="">
@@ -998,10 +1001,10 @@
                                     </ul>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-                                
+
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <div class="latest-post">
                                 <img src="images/blog-03.jpg" class="img-responsive" alt="">
@@ -1014,10 +1017,10 @@
                                     </ul>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-                                
+
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <div class="latest-post">
                                 <img src="images/blog-04.jpg" class="img-responsive" alt="">
@@ -1030,19 +1033,19 @@
                                     </ul>
                                 </div>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
-                                
+
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- End Latest News Section -->
-        
-        
-        
+
+
+
         <!-- Start Contact Section -->
         <div class="section-modal modal fade contact" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -1052,7 +1055,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -1061,7 +1064,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col-md-4">
                             <div class="footer-contact-info">
                                 <h4>Contact info</h4>
@@ -1073,7 +1076,7 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="footer-social text-center">
                                 <ul>
@@ -1085,7 +1088,7 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-4">
                             <div class="footer-contact-info">
                                 <h4>Working Hours</h4>
@@ -1097,7 +1100,7 @@
                                 </ul>
                             </div>
                         </div>
-                        
+
                     </div><!--/.row -->
                     <div class="row" style="padding-top: 80px;">
                         <div class="col-md-12">
@@ -1133,12 +1136,12 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- End Contact Section -->
-        
-        
+
+
          <!-- Start Testimonial Section -->
         <div class="section-modal modal fade contact" id="testimonial-modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -1148,7 +1151,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
@@ -1157,7 +1160,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <div class="col-md-6">
                             <div class="testimonial">
                                 <img src="images/team/manage-1.png" class="img-responsive" alt="...">
@@ -1167,7 +1170,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <div class="testimonial">
                                 <img src="images/team/manage-2.png" class="img-responsive" alt="...">
@@ -1177,7 +1180,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <div class="testimonial">
                                 <img src="images/team/manage-3.png" class="img-responsive" alt="...">
@@ -1187,7 +1190,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6">
                             <div class="testimonial">
                                 <img src="images/team/manage-4.png" class="img-responsive" alt="...">
@@ -1197,15 +1200,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div><!--/.row -->
-                    
+
                 </div>
-                
+
             </div>
         </div>
         <!-- End Testimonial Section -->
-        
+
     </body>
-    
+
 </html>
